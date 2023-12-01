@@ -1,0 +1,67 @@
+
+
+.product-list {
+  width: 100%;
+  text-align: center;
+}
+
+.product-list h2 {
+  margin-bottom: 20px;
+}
+
+.product-table {
+  width: 60%; /* Giảm kích thước bảng */
+  margin: 0 auto; /* Để căn giữa bảng */
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Thêm khoảng cách giữa các bảng */
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-table img {
+  max-width: 60px; /* Giảm kích thước ảnh */
+  max-height: 60px;
+}
+
+.product-pagination {
+  margin-top: 20px;
+}
+
+.link {
+  cursor: pointer;
+  color: blue;
+  margin-right: 5px;
+}
+
+.link b {
+  color: black;
+}
+
+.product-detail-table {
+  width: 80%; /* Giảm kích thước bảng của ProductDetail */
+  margin: 0 auto; /* Để căn giữa bảng */
+  border-collapse: collapse;
+}
+
+.product-detail-table th, .product-detail-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-detail-table th {
+  background-color: #f2f2f2;
+}
+
+.product-detail-table img {
+  max-width: 80px; /* Giảm kích thước ảnh */
+  max-height: 80px;
+}

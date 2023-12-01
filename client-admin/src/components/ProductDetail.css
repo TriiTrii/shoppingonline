@@ -1,0 +1,64 @@
+/* ProductDetail.css */
+
+.float-right {
+  float: right;
+  margin-left: 20px; /* Add some margin for better spacing */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.product-table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.product-table td,
+.product-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product-table img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-form {
+  margin-top: 40px; /* Add margin to separate form from table */
+}
+
+.product-form table {
+  width: 100%;
+}
+
+.product-form input,
+.product-form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box; /* Giữ nguyên kích thước tổng cộng của ô input */
+}
+
+.product-form img {
+  max-width: 300px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.product-form input[type="submit"] {
+  background-color: #f1c40f; /* Yellow background */
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.product-form input[type="submit"]:hover {
+  background-color: #e2ac00; /* Darker yellow on hover */
+}
+.product-form td input,
+.product-form td select {
+  width: calc(100% - 16px); /* Sử dụng calc để trừ đi lề (padding) */
+}
